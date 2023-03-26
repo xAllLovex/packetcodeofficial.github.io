@@ -1,0 +1,110 @@
+*{
+  margin: 5px;
+  padding: 5px;
+  
+}
+
+body{
+  background: rgba(106, 120, 138, 0.3);
+  text-align: left; 
+  font-size: 1.15rem;
+  font-family: monospace;
+}
+
+h1{
+  color: rgb(0, 0, 0);
+}
+h2{
+  color: rgba(0, 183, 255, 0.5);
+}
+img{
+  height: 400px;
+  width: 300px;
+}
+
+.big-size{
+  height: 250px;
+  width: 450px;
+  margin: 10px;
+}
+
+.signup{
+  min-height: 100vh;
+  min-width: 40%;
+  display: flex;
+  overflow: auto;
+  flex-direction: column;
+  color: rgb(0, 183, 255);
+  font-size: 1.15rem;
+  border-radius: 5px;
+  background: url("RORO3.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  position: absolute;
+}
+.input-field{
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid rgba(0, 183, 255, 0.5);
+  width: 100%;
+  padding: 10px;
+  color: white;
+  font-size: 1.15rem;
+  font-family: monospace;
+}
+::-webkit-input-placeholder{
+  color: rgba(0, 183, 255, 1);
+}
+::-moz-placeholder{
+  color: rgba(0, 183, 255, 1);
+}
+::-ms-input-placeholder{
+  color: rgba(0, 183, 255, 1);
+}
+.sbutton{
+  color: rgba(255, 255, 255, 1);
+  background: rgba(0, 183, 255, 1);
+  border-radius: 15px;
+  border: 0;
+  padding: 15px;
+  font-size: 1rem;
+  margin: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.wrapper, .os{
+  color: rgba(255, 255, 255, 1);
+  background: transparent;
+  background: rgba(0, 183, 255, 1);
+  border-radius: 15px; 
+  font-size: 1.15rem;
+  
+}
+
+.content-table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1.0em;
+  min-width: 300px;
+  box-shadow: 0 0 30px #000000e6;
+  border-radius: 15px 15px 0px 0px;
+  overflow: hidden;
+}
+.content-table thead tr{
+  background: rgba(0, 183, 255, 0.5);
+  color: aliceblue;
+  font-weight: bold;
+}
+.content-table th, .content-table td{
+padding: 20px 20px;
+}
+.content-table tbody tr{
+  border-bottom: 2px solid #bebdbd;
+}
+.content-table tbody tr:last-of-type{
+  border-bottom: 3px solid rgba(0, 183, 255, 0.5);
+}
+.content-table tbody tr:nth-of-type(even){
+  background-color: #f3f3f3;
+}
